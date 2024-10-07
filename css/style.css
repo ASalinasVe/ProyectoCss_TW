@@ -1,0 +1,48 @@
+body{
+    background-color: lightskyblue;
+
+}
+/* p{ SELECTOR DE CLASE
+    background-color: lightcoral;
+    color: rgb(0,0,0)
+}
+div{ SELECTOR UNIVERSAL
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgba(0,0,255,0.3)
+} 
+ */
+.caja1{
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    background-color: rgb(0,20,200);
+}
+.caja2{
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    background-color: #0cfad0;
+}
+.caja3{
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    background-color: hsl(300, 40, 50);
+    background-color: pink;
+}
+
+#foo{
+    color: blue;
+}
+
+a[title]{
+    color: orangered;
+}
+button:hover{
+    background-color:lightgreen;
+}
+
+input:disabled{
+    border: 2px solid rgb(46, 139, 130)
+}
