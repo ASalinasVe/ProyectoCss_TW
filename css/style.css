@@ -1,17 +1,16 @@
 body{
-    background-color: lightskyblue;
+    background-color: lightgreen;
 
 }
-/* p{ SELECTOR DE CLASE
+p{ /*SELECTOR DE CLASE */
     background-color: lightcoral;
     color: rgb(0,0,0)
 }
-div{ SELECTOR UNIVERSAL
-    font-family: 'Courier New', Courier, monospace;
+div{ /*SELECTOR UNIVERSAL */
     font-size: 20px;
     color: rgba(0,0,255,0.3)
 } 
- */
+
 .caja1{
     height: 150px;
     width: 150px;
@@ -45,4 +44,36 @@ button:hover{
 
 input:disabled{
     border: 2px solid rgb(46, 139, 130)
+}
+
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    font-size: 20px;
+    color:red;
+} 
+
+.foo,.bar{
+    color:rgb(52, 207, 52)
+}
+
+.abuelo.hijo1,.hijo2{
+    color:blue
+}
+.nieto{
+    color:green
+} 
+.foo{
+    color:blue
+}
+#bar{
+    color:green
+} 
+
+#outer{
+    background-color: lightpink;
+}
+#inner{
+    color:royalblue
 }
